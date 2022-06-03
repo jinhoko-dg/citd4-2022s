@@ -1,0 +1,75 @@
+I"ù<h2 id="cursor-utilities">Cursor utilities</h2>
+
+<p>Use one of the available cursor utilities depending on the action you want to indicate.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">.cursor-auto</code>- the cursor style depends on what‚Äôs inside a given element</li>
+  <li><code class="language-plaintext highlighter-rouge">.cursor-pointer</code> - a pointing cursor, used to show that an element is clickable</li>
+  <li><code class="language-plaintext highlighter-rouge">.cursor-move</code> - a cursor which shows that a given element can be moved</li>
+  <li><code class="language-plaintext highlighter-rouge">.cursor-not-allowed</code> - a cursor which shows that a user is not allowed to perform an action on an element</li>
+  <li><code class="language-plaintext highlighter-rouge">.cursor-zoom-in</code> - a cursor which shows that a user can zoom in</li>
+  <li><code class="language-plaintext highlighter-rouge">.cursor-zoom-out</code> - a cursor which shows that a user can zoom out</li>
+</ul>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div class="row text-center">
+  <div class="col-4 mb-3">
+    <div class="cursor-auto bg-light py-3">Cursor auto</div>
+  </div>
+  <div class="col-4 mb-3">
+    <div class="cursor-pointer bg-light py-3">Cursor pointer</div>
+  </div>
+  <div class="col-4 mb-3">
+    <div class="cursor-move bg-light py-3">Cursor move</div>
+  </div>
+  <div class="col-4">
+    <div class="cursor-not-allowed bg-light py-3">Cursor not allowed</div>
+  </div>
+  <div class="col-4">
+    <div class="cursor-zoom-in bg-light py-3">Cursor zoom in</div>
+  </div>
+  <div class="col-4">
+    <div class="cursor-zoom-out bg-light py-3">Cursor zoom out</div>
+  </div>
+</div>
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row text-center"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4 mb-3"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-auto bg-light py-3"</span><span class="nt">&gt;</span>Cursor auto<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4 mb-3"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-pointer bg-light py-3"</span><span class="nt">&gt;</span>Cursor pointer<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4 mb-3"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-move bg-light py-3"</span><span class="nt">&gt;</span>Cursor move<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-not-allowed bg-light py-3"</span><span class="nt">&gt;</span>Cursor not allowed<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-zoom-in bg-light py-3"</span><span class="nt">&gt;</span>Cursor zoom in<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-4"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"cursor-zoom-out bg-light py-3"</span><span class="nt">&gt;</span>Cursor zoom out<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+:ET

@@ -1,0 +1,408 @@
+I"R:<h2 id="default-markup">Default markup</h2>
+
+<p>Use the default spinner to notify users that an action they have taken is in progress, helping them avoid confusion.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+
+<div class="spinner-border" role="status"></div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="colors">Colors</h2>
+
+<p>Choose one of the available colors to customize the spinner and make it suit your design.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+
+
+
+<div class="spinner-border text-blue" role="status"></div>
+
+
+
+
+<div class="spinner-border text-azure" role="status"></div>
+
+
+
+
+<div class="spinner-border text-indigo" role="status"></div>
+
+
+
+
+<div class="spinner-border text-purple" role="status"></div>
+
+
+
+
+<div class="spinner-border text-pink" role="status"></div>
+
+
+
+
+<div class="spinner-border text-red" role="status"></div>
+
+
+
+
+<div class="spinner-border text-orange" role="status"></div>
+
+
+
+
+<div class="spinner-border text-yellow" role="status"></div>
+
+
+
+
+<div class="spinner-border text-lime" role="status"></div>
+
+
+
+
+<div class="spinner-border text-green" role="status"></div>
+
+
+
+
+<div class="spinner-border text-teal" role="status"></div>
+
+
+
+
+<div class="spinner-border text-cyan" role="status"></div>
+
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border text-blue"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border text-azure"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border text-indigo"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border text-purple"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border text-pink"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border text-red"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border text-orange"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border text-yellow"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border text-lime"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border text-green"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border text-teal"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border text-cyan"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="size">Size</h2>
+
+<p>Choose the size of your spinner. You can use the default size or use the <code class="language-plaintext highlighter-rouge">spinner-border-sm</code> class to display a smaller spinner.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+
+<div class="spinner-border" role="status"></div>
+
+
+<div class="spinner-border spinner-border-sm" role="status"></div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-border spinner-border-sm"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="growing-spinner">Growing spinner</h2>
+
+<p>Use the growing spinner, if you are looking for a more original design than a border spinner. The spinner grows to show the loading state.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+
+<div class="spinner-grow" role="status"></div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-grow"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<p>Growing spinners also come in a variety of colors to choose from.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+
+
+
+<div class="spinner-grow text-blue" role="status"></div>
+
+
+
+
+<div class="spinner-grow text-azure" role="status"></div>
+
+
+
+
+<div class="spinner-grow text-indigo" role="status"></div>
+
+
+
+
+<div class="spinner-grow text-purple" role="status"></div>
+
+
+
+
+<div class="spinner-grow text-pink" role="status"></div>
+
+
+
+
+<div class="spinner-grow text-red" role="status"></div>
+
+
+
+
+<div class="spinner-grow text-orange" role="status"></div>
+
+
+
+
+<div class="spinner-grow text-yellow" role="status"></div>
+
+
+
+
+<div class="spinner-grow text-lime" role="status"></div>
+
+
+
+
+<div class="spinner-grow text-green" role="status"></div>
+
+
+
+
+<div class="spinner-grow text-teal" role="status"></div>
+
+
+
+
+<div class="spinner-grow text-cyan" role="status"></div>
+
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-grow text-blue"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-grow text-azure"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-grow text-indigo"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-grow text-purple"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-grow text-pink"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-grow text-red"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-grow text-orange"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-grow text-yellow"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-grow text-lime"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-grow text-green"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-grow text-teal"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spinner-grow text-cyan"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h3 id="button-with-spinner">Button with spinner</h3>
+
+<p>Use buttons with spinners to notify users that an action they have taken by clicking the button is in progress and prevent them from clicking multiple times or giving up.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<a href="javascript:void(0)" class="btn btn-primary">
+<span class="spinner-border spinner-border-sm me-2" role="status"></span>
+Button
+</a>
+<a href="javascript:void(0)" class="btn btn-danger">
+<span class="spinner-border spinner-border-sm me-2" role="status"></span>
+Button
+</a>
+<a href="javascript:void(0)" class="btn btn-warning">
+<span class="spinner-border spinner-border-sm me-2" role="status"></span>
+Button
+</a>
+<a href="javascript:void(0)" class="btn btn-success">
+<span class="spinner-border spinner-border-sm me-2" role="status"></span>
+Button
+</a>
+<a href="javascript:void(0)" class="btn btn-white">
+<span class="spinner-border spinner-border-sm me-2" role="status"></span>
+Button
+</a>
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"spinner-border spinner-border-sm me-2"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  Button
+<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn-danger"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"spinner-border spinner-border-sm me-2"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  Button
+<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn-warning"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"spinner-border spinner-border-sm me-2"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  Button
+<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn-success"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"spinner-border spinner-border-sm me-2"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  Button
+<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn-white"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"spinner-border spinner-border-sm me-2"</span> <span class="na">role=</span><span class="s">"status"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  Button
+<span class="nt">&lt;/a&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="animated-dots">Animated dots</h2>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		<div class="text-center">
+
+		
+<h1>Loading<span class="animated-dots"></span></h1>
+
+
+		</div>
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1&gt;</span>Loading<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"animated-dots"</span><span class="nt">&gt;&lt;/span&gt;&lt;/h1&gt;</span></code></pre></figure>
+
+</div>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<a href="javascript:void(0)" class="btn btn-primary">
+Loading<span class="animated-dots"></span>
+</a>
+<a href="javascript:void(0)" class="btn btn-primary disabled">
+Loading<span class="animated-dots"></span>
+</a>
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>
+  Loading<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"animated-dots"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn-primary disabled"</span><span class="nt">&gt;</span>
+  Loading<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"animated-dots"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;/a&gt;</span></code></pre></figure>
+
+</div>
+:ET

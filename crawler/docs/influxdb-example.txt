@@ -1,0 +1,41 @@
+
+// https://www.influxdata.com/blog/getting-started-python-influxdb/
+
+
+// database = database
+// measurement = table
+// series = (table, *tags)
+
+from influxdb import InfluxDBClient
+client = InfluxDBClient(host='localhost', port=8086)
+client.switch_database('krx')
+
+client.query('create database krx', method='POST')
+
+
+resp = client.query('drop series from prices', method='POST')
+resp = client.query('drop series from daily_trades_per_subject', method='POST')
+
+client.get_list_series()
+client.get_list_measurements()
+
+# number of series
+val = client.query('show series on krx ')
+len( val.raw['series'][0]['values'] )
+
+
+client.write_points([{'measurement':'prices', 'time':'2018-09-20T00:00:00Z','tags':{'key':'1'}, 'fields':{'col':1} }])
+val = client.query('select * from prices')
+data = val.raw['series']
+
+client.query("select * from prices where time = '2018-09-20T00:00:00Z' ")
+client.query("select count(*) from prices where ticker = '005930' order by time")
+
+>>> val.raw['series'][0].keys()
+dict_keys(['name', 'columns', 'values'])
+>>> val.raw['series'][0]['name']
+'prices'
+>>> val.raw['series'][0]['columns']
+['time', 'close', 'high', 'low', 'open', 'ticker', 'time_unit', 'volume']
+
+	// must be "" outside and '' inside

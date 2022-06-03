@@ -1,0 +1,283 @@
+I"�-<h2 id="default-markup">Default markup</h2>
+
+<p>To create a default progress bar, add a <code class="language-plaintext highlighter-rouge">.progress</code> class to a <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> element. Thanks to that, you will be able to notify users how long they have to wait for a process to complete.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+
+
+<div class="progress">
+   
+      <div class="progress-bar" style="width: 38%" role="progressbar" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">
+         
+            <span class="visually-hidden">38% Complete</span>
+         
+      </div>
+   
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress-bar"</span> <span class="na">style=</span><span class="s">"width: 38%"</span> <span class="na">role=</span><span class="s">"progressbar"</span> <span class="na">aria-valuenow=</span><span class="s">"38"</span> <span class="na">aria-valuemin=</span><span class="s">"0"</span> <span class="na">aria-valuemax=</span><span class="s">"100"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"visually-hidden"</span><span class="nt">&gt;</span>38% Complete<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="progress-size">Progress size</h2>
+
+<p>Using Bootstrap’s typical naming structure, you can create a standard progress bar or scale it up or down to different sizes based on what’s needed.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+
+
+<div class="progress progress-sm">
+   
+      <div class="progress-bar" style="width: 57%" role="progressbar" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100">
+         
+            <span class="visually-hidden">57% Complete</span>
+         
+      </div>
+   
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress progress-sm"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress-bar"</span> <span class="na">style=</span><span class="s">"width: 57%"</span> <span class="na">role=</span><span class="s">"progressbar"</span> <span class="na">aria-valuenow=</span><span class="s">"57"</span> <span class="na">aria-valuemin=</span><span class="s">"0"</span> <span class="na">aria-valuemax=</span><span class="s">"100"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"visually-hidden"</span><span class="nt">&gt;</span>57% Complete<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="progress-without-value">Progress without value</h2>
+
+<p>Remove the displayed value by adding the <code class="language-plaintext highlighter-rouge">.visually-hidden</code> class.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+
+
+<div class="progress">
+   
+      <div class="progress-bar" style="width: 75%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+         
+            <span class="visually-hidden">75% Complete</span>
+         
+      </div>
+   
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress-bar"</span> <span class="na">style=</span><span class="s">"width: 75%"</span> <span class="na">role=</span><span class="s">"progressbar"</span> <span class="na">aria-valuenow=</span><span class="s">"75"</span> <span class="na">aria-valuemin=</span><span class="s">"0"</span> <span class="na">aria-valuemax=</span><span class="s">"100"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"visually-hidden"</span><span class="nt">&gt;</span>75% Complete<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="indeterminate-progress">Indeterminate progress</h2>
+
+<p>You can create a progress bar which shows indeterminate progress by adding <code class="language-plaintext highlighter-rouge">.progress-bar-indeterminate</code> to the <code class="language-plaintext highlighter-rouge">.progress-bar</code> element.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+
+
+<div class="progress progress-sm">
+   
+      <div class="progress-bar progress-bar-indeterminate"></div>
+   
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress progress-sm"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress-bar progress-bar-indeterminate"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="native-progress-element">Native progress element</h2>
+
+<p>You can also use native HTML5 <code class="language-plaintext highlighter-rouge">&lt;progress&gt;</code> element.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<progress class="progress progress-sm" value="15" max="100" />
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">"progress progress-sm"</span> <span class="na">value=</span><span class="s">"15"</span> <span class="na">max=</span><span class="s">"100"</span><span class="nt">/&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="progress-color">Progress color</h2>
+
+<p>Customize the color of the progress bar to suit your design. Click <a href="./colors.html">here</a> to see the list of available colors.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+
+
+<div class="progress progress-sm mb-2">
+   
+      <div class="progress-bar bg-red" style="width: 24%" role="progressbar" aria-valuenow="24" aria-valuemin="0" aria-valuemax="100">
+         
+            <span class="visually-hidden">24% Complete</span>
+         
+      </div>
+   
+</div>
+ 
+
+
+<div class="progress progress-sm mb-2">
+   
+      <div class="progress-bar bg-green" style="width: 45%" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+         
+            <span class="visually-hidden">45% Complete</span>
+         
+      </div>
+   
+</div>
+ 
+
+
+<div class="progress progress-sm mb-2">
+   
+      <div class="progress-bar bg-purple" style="width: 64%" role="progressbar" aria-valuenow="64" aria-valuemin="0" aria-valuemax="100">
+         
+            <span class="visually-hidden">64% Complete</span>
+         
+      </div>
+   
+</div>
+ 
+
+
+<div class="progress progress-sm">
+   
+      <div class="progress-bar bg-pink" style="width: 38%" role="progressbar" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">
+         
+            <span class="visually-hidden">38% Complete</span>
+         
+      </div>
+   
+</div>
+ 
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress progress-sm mb-2"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress-bar bg-red"</span> <span class="na">style=</span><span class="s">"width: 24%"</span> <span class="na">role=</span><span class="s">"progressbar"</span> <span class="na">aria-valuenow=</span><span class="s">"24"</span> <span class="na">aria-valuemin=</span><span class="s">"0"</span> <span class="na">aria-valuemax=</span><span class="s">"100"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"visually-hidden"</span><span class="nt">&gt;</span>24% Complete<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress progress-sm mb-2"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress-bar bg-green"</span> <span class="na">style=</span><span class="s">"width: 45%"</span> <span class="na">role=</span><span class="s">"progressbar"</span> <span class="na">aria-valuenow=</span><span class="s">"45"</span> <span class="na">aria-valuemin=</span><span class="s">"0"</span> <span class="na">aria-valuemax=</span><span class="s">"100"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"visually-hidden"</span><span class="nt">&gt;</span>45% Complete<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress progress-sm mb-2"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress-bar bg-purple"</span> <span class="na">style=</span><span class="s">"width: 64%"</span> <span class="na">role=</span><span class="s">"progressbar"</span> <span class="na">aria-valuenow=</span><span class="s">"64"</span> <span class="na">aria-valuemin=</span><span class="s">"0"</span> <span class="na">aria-valuemax=</span><span class="s">"100"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"visually-hidden"</span><span class="nt">&gt;</span>64% Complete<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress progress-sm"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"progress-bar bg-pink"</span> <span class="na">style=</span><span class="s">"width: 38%"</span> <span class="na">role=</span><span class="s">"progressbar"</span> <span class="na">aria-valuenow=</span><span class="s">"38"</span> <span class="na">aria-valuemin=</span><span class="s">"0"</span> <span class="na">aria-valuemax=</span><span class="s">"100"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"visually-hidden"</span><span class="nt">&gt;</span>38% Complete<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+:ET

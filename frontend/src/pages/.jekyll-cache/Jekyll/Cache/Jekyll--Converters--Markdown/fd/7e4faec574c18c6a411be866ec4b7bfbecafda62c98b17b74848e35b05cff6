@@ -1,0 +1,395 @@
+I"`k<p>Your input controls can come in a variety of colors, depending on your preferences. Click <a href="./colors.html">here</a> to see the list of available colors.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+
+
+
+<div class="mb-3">
+	<label class="form-label">Color Input</label>
+	<div class="row g-2">
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color" type="radio" value="dark" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-dark"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput form-colorinput-light">
+				<input name="color" type="radio" value="white" class="form-colorinput-input" checked="" />
+				<span class="form-colorinput-color bg-white"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color" type="radio" value="blue" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-blue"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color" type="radio" value="azure" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-azure"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color" type="radio" value="indigo" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-indigo"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color" type="radio" value="purple" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-purple"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color" type="radio" value="pink" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-pink"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color" type="radio" value="red" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-red"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color" type="radio" value="orange" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-orange"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color" type="radio" value="yellow" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-yellow"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color" type="radio" value="lime" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-lime"></span>
+			</label>
+		</div>
+		
+	</div>
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"mb-3"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label"</span><span class="nt">&gt;</span>Color Input<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row g-2"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"dark"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-dark"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput form-colorinput-light"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"white"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span>  <span class="na">checked</span><span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-white"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"blue"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-blue"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"azure"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-azure"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"indigo"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-indigo"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"purple"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-purple"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"pink"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-pink"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"red"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-red"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"orange"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-orange"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"yellow"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-yellow"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"lime"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-lime"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+
+
+
+<div class="mb-3">
+	<label class="form-label">Color Input</label>
+	<div class="row g-2">
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color-rounded" type="radio" value="dark" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-dark rounded-circle"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput form-colorinput-light">
+				<input name="color-rounded" type="radio" value="white" class="form-colorinput-input" checked="" />
+				<span class="form-colorinput-color bg-white rounded-circle"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color-rounded" type="radio" value="blue" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-blue rounded-circle"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color-rounded" type="radio" value="azure" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-azure rounded-circle"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color-rounded" type="radio" value="indigo" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-indigo rounded-circle"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color-rounded" type="radio" value="purple" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-purple rounded-circle"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color-rounded" type="radio" value="pink" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-pink rounded-circle"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color-rounded" type="radio" value="red" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-red rounded-circle"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color-rounded" type="radio" value="orange" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-orange rounded-circle"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color-rounded" type="radio" value="yellow" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-yellow rounded-circle"></span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-colorinput">
+				<input name="color-rounded" type="radio" value="lime" class="form-colorinput-input" />
+				<span class="form-colorinput-color bg-lime rounded-circle"></span>
+			</label>
+		</div>
+		
+	</div>
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"mb-3"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label"</span><span class="nt">&gt;</span>Color Input<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row g-2"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color-rounded"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"dark"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-dark rounded-circle"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput form-colorinput-light"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color-rounded"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"white"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span>  <span class="na">checked</span><span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-white rounded-circle"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color-rounded"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"blue"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-blue rounded-circle"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color-rounded"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"azure"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-azure rounded-circle"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color-rounded"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"indigo"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-indigo rounded-circle"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color-rounded"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"purple"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-purple rounded-circle"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color-rounded"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"pink"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-pink rounded-circle"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color-rounded"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"red"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-red rounded-circle"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color-rounded"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"orange"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-orange rounded-circle"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color-rounded"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"yellow"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-yellow rounded-circle"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-colorinput"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"color-rounded"</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">value=</span><span class="s">"lime"</span> <span class="na">class=</span><span class="s">"form-colorinput-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-colorinput-color bg-lime rounded-circle"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="input-color-picker">Input color picker</h2>
+
+<p>Add an color picker to your form to let users customise it according to their preferences.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div class="mb-3">
+   <label class="form-label">Color picker</label>
+   <input type="color" class="form-control form-control-color" value="#206bc4" title="Choose your color" />
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"mb-3"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label"</span><span class="nt">&gt;</span>Color picker<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"color"</span> <span class="na">class=</span><span class="s">"form-control form-control-color"</span> <span class="na">value=</span><span class="s">"#206bc4"</span> <span class="na">title=</span><span class="s">"Choose your color"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+:ET

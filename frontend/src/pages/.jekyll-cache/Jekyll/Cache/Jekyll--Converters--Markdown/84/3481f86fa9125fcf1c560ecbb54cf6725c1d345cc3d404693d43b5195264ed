@@ -1,0 +1,438 @@
+I"�N<h2 id="default-markup">Default markup</h2>
+
+<p>Use the <code class="language-plaintext highlighter-rouge">avatar</code> class to add an avatar to your interface design for greater customisation.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<span class="avatar" style="background-image: url(../static/avatars/000m.jpg)"></span>
+
+<span class="avatar">JL</span>
+
+<span class="avatar" style="background-image: url(../static/avatars/002m.jpg)"></span>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span>JL<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="avatar-image">Avatar image</h2>
+
+<p>Set an image as the background to make users easy to indentify and create a personalised experience.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<span class="avatar" style="background-image: url(../static/avatars/000m.jpg)"></span>
+
+<span class="avatar" style="background-image: url(../static/avatars/002m.jpg)"></span>
+
+<span class="avatar" style="background-image: url(../static/avatars/003m.jpg)"></span>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="initials">Initials</h2>
+
+<p>You can also use initials instead of pictures.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<span class="avatar">AB</span>
+
+<span class="avatar">CD</span>
+
+<span class="avatar">EF</span>
+
+<span class="avatar">GH</span>
+
+<span class="avatar">IJ</span>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span>AB<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span>CD<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span>EF<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span>GH<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span>IJ<span class="nt">&lt;/span&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="avatar-icons">Avatar icons</h2>
+
+<p>Apart from pictures and initials, you can also use icons to make the avatars more universal.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<span class="avatar"><!-- Download SVG icon from http://tabler-icons.io/i/user -->
+	<svg xmlns="http://www.w3.org/2000/svg" class="icon avatar-icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><circle cx="12" cy="7" r="4" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
+</span>
+
+<span class="avatar"><!-- Download SVG icon from http://tabler-icons.io/i/plus -->
+	<svg xmlns="http://www.w3.org/2000/svg" class="icon avatar-icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
+</span>
+
+<span class="avatar"><!-- Download SVG icon from http://tabler-icons.io/i/user-plus -->
+	<svg xmlns="http://www.w3.org/2000/svg" class="icon avatar-icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><circle cx="9" cy="7" r="4" /><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /><path d="M16 11h6m-3 -3v6" /></svg>
+</span>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span><span class="c">&lt;!-- Download SVG icon from http://tabler-icons.io/i/user --&gt;</span>
+  <span class="c">&lt;!-- SVG icon code with class="avatar-icon" --&gt;</span>
+<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span><span class="c">&lt;!-- Download SVG icon from http://tabler-icons.io/i/plus --&gt;</span>
+  <span class="c">&lt;!-- SVG icon code with class="avatar-icon" --&gt;</span>
+<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span><span class="c">&lt;!-- Download SVG icon from http://tabler-icons.io/i/user-plus --&gt;</span>
+  <span class="c">&lt;!-- SVG icon code with class="avatar-icon" --&gt;</span>
+<span class="nt">&lt;/span&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="avatar-initials-color">Avatar initials color</h2>
+
+<p>Customize the color of the avatars’ background. You can click <a href="./colors.html">here</a> to see the list of available colors.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<span class="avatar bg-green-lt">AB</span>
+
+<span class="avatar bg-red-lt">CD</span>
+
+<span class="avatar bg-yellow-lt">EF</span>
+
+<span class="avatar bg-blue-lt">GH</span>
+
+<span class="avatar bg-purple-lt">IJ</span>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar bg-green-lt"</span><span class="nt">&gt;</span>AB<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar bg-red-lt"</span><span class="nt">&gt;</span>CD<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar bg-yellow-lt"</span><span class="nt">&gt;</span>EF<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar bg-blue-lt"</span><span class="nt">&gt;</span>GH<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar bg-purple-lt"</span><span class="nt">&gt;</span>IJ<span class="nt">&lt;/span&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="avatar-size">Avatar size</h2>
+
+<p>Using Bootstrap’s typical naming structure, you can create a standard avatar or scale it up or down to different sizes based on what you need.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<span class="avatar avatar-xl">HS</span>
+
+<span class="avatar avatar-lg" style="background-image: url(../static/avatars/003f.jpg)"></span>
+
+<span class="avatar avatar-md" style="background-image: url(../static/avatars/002f.jpg)"></span>
+
+<span class="avatar">EP</span>
+
+<span class="avatar avatar-sm" style="background-image: url(../static/avatars/001f.jpg)"></span>
+
+<span class="avatar avatar-xs" style="background-image: url(../static/avatars/000f.jpg)"></span>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-xl"</span><span class="nt">&gt;</span>HS<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-lg"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-md"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span>EP<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-sm"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-xs"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="avatar-status">Avatar status</h2>
+
+<p>Add a status indicator to your avatar to show, for instance, if a users is online or offline or indicate the number of messages they have received.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<span class="avatar" style="background-image: url(../static/avatars/006m.jpg)"></span>
+
+<span class="avatar" style="background-image: url(../static/avatars/004f.jpg)">
+	<span class="badge bg-danger"></span></span>
+
+<span class="avatar" style="background-image: url(../static/avatars/007m.jpg)">
+	<span class="badge bg-success"></span></span>
+
+<span class="avatar">
+	<span class="badge bg-warning"></span>SA</span>
+
+<span class="avatar" style="background-image: url(../static/avatars/009m.jpg)">
+	<span class="badge bg-info"></span></span>
+
+<span class="avatar" style="background-image: url(../static/avatars/010m.jpg)">
+	<span class="badge bg-gray">5</span></span>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"badge bg-danger"</span><span class="nt">&gt;&lt;/span&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"badge bg-success"</span><span class="nt">&gt;&lt;/span&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"badge bg-warning"</span><span class="nt">&gt;&lt;/span&gt;</span>SA<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"badge bg-info"</span><span class="nt">&gt;&lt;/span&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"badge bg-gray"</span><span class="nt">&gt;</span>5<span class="nt">&lt;/span&gt;&lt;/span&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="avatar-shape">Avatar shape</h2>
+
+<p>Change the shape of an avatar with the default Bootstrap image classes. You can make them round or square and change their border radius.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<span class="avatar" style="background-image: url(../static/avatars/005f.jpg)"></span>
+
+<span class="avatar rounded" style="background-image: url(../static/avatars/006f.jpg)"></span>
+
+<span class="avatar rounded-circle">AA</span>
+
+<span class="avatar rounded-0" style="background-image: url(../static/avatars/008f.jpg)"></span>
+
+<span class="avatar rounded-lg" style="background-image: url(../static/avatars/009f.jpg)"></span>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar rounded"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar rounded-circle"</span><span class="nt">&gt;</span>AA<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar rounded-0"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar rounded-lg"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="avatars-list">Avatars list</h2>
+
+<p>Create a list of avatars within one parent container.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+
+
+
+<div class="avatar-list">
+    
+        <span class="avatar avatar-sm avatar-rounded" style="background-image: url(../static/avatars/000m.jpg)"></span>
+
+    
+        <span class="avatar avatar-sm avatar-rounded">JL</span>
+
+    
+        <span class="avatar avatar-sm avatar-rounded" style="background-image: url(../static/avatars/002m.jpg)"></span>
+
+    
+        <span class="avatar avatar-sm avatar-rounded" style="background-image: url(../static/avatars/003m.jpg)"></span>
+
+    
+        <span class="avatar avatar-sm avatar-rounded" style="background-image: url(../static/avatars/000f.jpg)"></span>
+
+    
+    
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"avatar-list"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-sm avatar-rounded"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-sm avatar-rounded"</span><span class="nt">&gt;</span>JL<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-sm avatar-rounded"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-sm avatar-rounded"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-sm avatar-rounded"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="stacked-list">Stacked list</h2>
+
+<p>Make the list stack once a certain number of avatars is reached to make it look clear and display well regardless of the screen size.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div class="avatar-list avatar-list-stacked">
+  
+  <span class="avatar">EB</span>
+
+  
+  <span class="avatar" style="background-image: url(../static/avatars/016f.jpg)"></span>
+
+  
+  <span class="avatar" style="background-image: url(../static/avatars/015m.jpg)"></span>
+
+  
+  <span class="avatar" style="background-image: url(../static/avatars/017f.jpg)"></span>
+
+  
+  <span class="avatar" style="background-image: url(../static/avatars/018f.jpg)"></span>
+
+  
+  <span class="avatar">+8</span>
+</div>
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"avatar-list avatar-list-stacked"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span>EB<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span><span class="nt">&gt;</span>+8<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+:ET

@@ -1,0 +1,321 @@
+I"]A<p>All options and features can be found <a href="https://refreshless.com/nouislider/"><strong>here</strong></a>.</p>
+
+<h2 id="basic-range-slider">Basic range slider</h2>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div data-slider="{&quot;js-name&quot;: &quot;slider0&quot;,&quot;start&quot;: 50,&quot;range&quot;: {&quot;min&quot;: 0,&quot;max&quot;: 100}}"></div>
+    <p demo-slider="slider0"></p>
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider0","start": 50,"range": {"min": 0,"max": 100}}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider0"</span><span class="nt">&gt;&lt;/p&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="basic-options">Basic options</h2>
+
+<p>Basic range slider options.</p>
+
+<h2 id="js-name">js-name</h2>
+
+<p>By setting <code class="language-plaintext highlighter-rouge">js-name</code> you can access slider in your js code. <strong>Remember to use it in your code after the page has loaded.</strong></p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/* Example */</span>
+
+<span class="nb">window</span><span class="p">.</span><span class="nx">onload</span> <span class="o">=</span> <span class="nx">slider</span><span class="p">;</span>
+
+<span class="kd">function</span> <span class="nx">slider</span><span class="p">(){</span>
+    <span class="kd">let</span> <span class="nx">sliderText</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">sliderText</span><span class="dl">'</span><span class="p">);</span>
+    <span class="nx">slider1</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">update</span><span class="dl">'</span><span class="p">,</span><span class="kd">function</span><span class="p">(</span><span class="nx">values</span><span class="p">,</span><span class="nx">handle</span><span class="p">){</span>
+        <span class="nx">sliderText</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">values</span><span class="p">[</span><span class="nx">handle</span><span class="p">];</span>
+    <span class="p">});</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div data-slider="{&quot;js-name&quot;: &quot;slider1&quot;,&quot;start&quot;: 50,&quot;range&quot;: {&quot;min&quot;: 0,&quot;max&quot;: 100}}"></div>
+    <p id="sliderText" demo-slider="slider1"></p>
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider1","start": 50,"range": {"min": 0,"max": 100}}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"sliderText"</span> <span class="na">demo-slider=</span><span class="s">"slider1"</span><span class="nt">&gt;&lt;/p&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="start">start</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">start</code> option sets the number of handles and corresponding start positions.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">start</code> option uses the slider’s <code class="language-plaintext highlighter-rouge">'format'</code> option to decode the input. Number input will be cast to string and decoded.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div data-slider="{&quot;js-name&quot;: &quot;slider2&quot;,&quot;start&quot;: 30,&quot;range&quot;: {&quot;min&quot;: 0,&quot;max&quot;: 100}}"></div>
+    <p demo-slider="slider2"></p>
+    <div data-slider="{&quot;js-name&quot;: &quot;slider3&quot;,&quot;start&quot;: [40,65],&quot;range&quot;: {&quot;min&quot;: 0,&quot;max&quot;: 100}}"></div>
+    <p demo-slider="slider3"></p>
+    <div data-slider="{&quot;js-name&quot;: &quot;slider4&quot;,&quot;start&quot;: [25,50,75],&quot;range&quot;: {&quot;min&quot;: 0,&quot;max&quot;: 100}}"></div>
+    <p demo-slider="slider4"></p>
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider2","start": 30,"range": {"min": 0,"max": 100}}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider2"</span><span class="nt">&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider3","start": [40,65],"range": {"min": 0,"max": 100}}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider3"</span><span class="nt">&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider4","start": [25,50,75],"range": {"min": 0,"max": 100}}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider4"</span><span class="nt">&gt;&lt;/p&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="range">range</h2>
+
+<p>All values on the slider are part of a range. The range has a minimum and maximum value. <strong>The minimum value cannot be equal to the maximum value.</strong></p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div data-slider="{&quot;js-name&quot;: &quot;slider5&quot;,&quot;start&quot;: 500,&quot;range&quot;: {&quot;min&quot;: -2000,&quot;max&quot;: 10000}}"></div>
+    <p demo-slider="slider5"></p>
+    <div data-slider="{&quot;js-name&quot;: &quot;slider6&quot;,&quot;start&quot;: [-250,800],&quot;range&quot;: {&quot;min&quot;: -500,&quot;max&quot;: 1000}}"></div>
+    <p demo-slider="slider6"></p>
+    <div data-slider="{&quot;js-name&quot;: &quot;slider7&quot;,&quot;start&quot;: [0.1,0.4,0.9],&quot;range&quot;: {&quot;min&quot;: 0.1,&quot;max&quot;: 1}}"></div>
+    <p demo-slider="slider7"></p>
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider5","start": 500,"range": {"min": -2000,"max": 10000}}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider5"</span><span class="nt">&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider6","start": [-250,800],"range": {"min": -500,"max": 1000}}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider6"</span><span class="nt">&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider7","start": [0.1,0.4,0.9],"range": {"min": 0.1,"max": 1}}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider7"</span><span class="nt">&gt;&lt;/p&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="step">step</h2>
+
+<p>By default, the slider slides fluently. In order to make the handles jump between intervals, you can use the step option.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div data-slider="{&quot;js-name&quot;: &quot;slider8&quot;,&quot;start&quot;: 5000,&quot;range&quot;: {&quot;min&quot;: 1000,&quot;max&quot;: 10000},&quot;step&quot;: 1000}"></div>
+    <p demo-slider="slider8"></p>
+    <div data-slider="{&quot;js-name&quot;: &quot;slider9&quot;,&quot;start&quot;: 500,&quot;range&quot;: {&quot;min&quot;: 100,&quot;max&quot;: 1000},&quot;step&quot;: 125}"></div>
+    <p demo-slider="slider9"></p>
+    <div data-slider="{&quot;js-name&quot;: &quot;slider10&quot;,&quot;start&quot;: 50,&quot;range&quot;: {&quot;min&quot;: 10,&quot;max&quot;: 100},&quot;step&quot;: 5}"></div>
+    <p demo-slider="slider10"></p>
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider8","start": 5000,"range": {"min": 1000,"max": 10000},"step": 1000}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider8"</span><span class="nt">&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider9","start": 500,"range": {"min": 100,"max": 1000},"step": 125}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider9"</span><span class="nt">&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider10","start": 50,"range": {"min": 10,"max": 100},"step": 5}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider10"</span><span class="nt">&gt;&lt;/p&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="connect">connect</h2>
+
+<p>The connect option can be used to control the bar between the handles or the edges of the slider.</p>
+
+<p>If you are using one handle, set the value to either <code class="language-plaintext highlighter-rouge">'upper'</code> or <code class="language-plaintext highlighter-rouge">'lower'</code>.
+For sliders with 2 or more handles, pass an array with a boolean for every connecting element, including the edges of the slider. The length of this array must match the handle count + 1.</p>
+
+<p>Setting true sets the bars between the handles, but not between the handles and the sliders edges.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div data-slider="{&quot;js-name&quot;: &quot;slider11&quot;,&quot;start&quot;: 8000,&quot;connect&quot;: &quot;lower&quot;,&quot;range&quot;: {&quot;min&quot;: [2000],&quot;max&quot;: [20000]}}"></div>
+    <p demo-slider="slider11"></p>
+    <div data-slider="{&quot;js-name&quot;: &quot;slider12&quot;,&quot;start&quot;: 8000,&quot;connect&quot;: &quot;upper&quot;,&quot;range&quot;: {&quot;min&quot;: [2000],&quot;max&quot;: [20000]}}"></div>
+    <p demo-slider="slider12"></p>
+    <div data-slider="{&quot;js-name&quot;: &quot;slider13&quot;,&quot;start&quot;: [4000, 8000, 12000, 16000],&quot;connect&quot;: [false, true, true, false, true],&quot;range&quot;: {&quot;min&quot;: [2000],&quot;max&quot;: [20000]}}"></div>
+    <p demo-slider="slider13"></p>
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider11","start": 8000,"connect": "lower","range": {"min": [2000],"max": [20000]}}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider11"</span><span class="nt">&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider12","start": 8000,"connect": "upper","range": {"min": [2000],"max": [20000]}}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider12"</span><span class="nt">&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider13","start": [4000, 8000, 12000, 16000],"connect": [false, true, true, false, true],"range": {"min": [2000],"max": [20000]}}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider13"</span><span class="nt">&gt;&lt;/p&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="margin">margin</h2>
+
+<p>When using two handles, the minimum distance between the handles can be set using the margin option. The margin value is relative to the value set in ‘range’. This option is only available on linear sliders.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div data-slider="{&quot;js-name&quot;: &quot;slider14&quot;,&quot;start&quot;: [20,80],&quot;range&quot;: {&quot;min&quot;: 0,&quot;max&quot;: 100},&quot;margin&quot;:30}"></div>
+    <p demo-slider="slider14"></p>
+    <div data-slider="{&quot;js-name&quot;: &quot;slider15&quot;,&quot;start&quot;: [20,80],&quot;range&quot;: {&quot;min&quot;: 0,&quot;max&quot;: 100},&quot;margin&quot;:50}"></div>
+    <p demo-slider="slider15"></p>
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider14","start": [20,80],"range": {"min": 0,"max": 100},"margin":30}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider14"</span><span class="nt">&gt;&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider15","start": [20,80],"range": {"min": 0,"max": 100},"margin":50}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider15"</span><span class="nt">&gt;&lt;/p&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="limit">limit</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">limit</code> option is the oposite of the margin option, limiting the maximum distance between two handles. As with the margin option, the <code class="language-plaintext highlighter-rouge">limit</code> option can only be used on linear sliders.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div data-slider="{&quot;js-name&quot;: &quot;slider16&quot;,&quot;start&quot;: [10,120],&quot;connect&quot;:true,&quot;range&quot;: {&quot;min&quot;: 0,&quot;max&quot;: 100},&quot;limit&quot;:40,&quot;behaviour&quot;:&quot;drag&quot;}"></div>
+    <p demo-slider="slider16"></p>
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider16","start": [10,120],"connect":true,"range": {"min": 0,"max": 100},"limit":40,"behaviour":"drag"}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider16"</span><span class="nt">&gt;&lt;/p&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="padding">padding</h2>
+
+<p>Padding limits how close to the slider edges handles can be.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div data-slider="{&quot;js-name&quot;: &quot;slider17&quot;,&quot;start&quot;: [20,80],&quot;range&quot;: {&quot;min&quot;: 0,&quot;max&quot;: 100},&quot;padding&quot;:[10,15]}"></div>
+    <p demo-slider="slider17"></p>
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">data-slider=</span><span class="s">'{"js-name": "slider17","start": [20,80],"range": {"min": 0,"max": 100},"padding":[10,15]}'</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">demo-slider=</span><span class="s">"slider17"</span><span class="nt">&gt;&lt;/p&gt;</span></code></pre></figure>
+
+</div>
+
+<p>That’s only the basic features and options of range slider. More possibilities can be found <a href="https://refreshless.com/nouislider/"><strong>here</strong></a>.</p>
+:ET

@@ -1,0 +1,424 @@
+I"„{<p>Add an image check to your form and give users visually attractive options to choose from.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		<div style="max-width: 25rem">
+		
+		
+		
+
+		
+
+<div class="mb-3">
+	<label class="form-label">Image Check</label>
+	<div class="row g-2">
+		
+
+		
+		<div class="col-6 col-sm-4">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="1" class="form-imagecheck-input" />
+				<span class="form-imagecheck-figure">
+					<img src="../static/photos/1b73704b282a8ec6.jpg" alt="Breakfast served with tea, bread and eggs" class="form-imagecheck-image" />
+				</span>
+			</label>
+		</div>
+		
+		<div class="col-6 col-sm-4">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="2" class="form-imagecheck-input" checked="" />
+				<span class="form-imagecheck-figure">
+					<img src="../static/photos/3d2998219313cd37.jpg" alt="Book, fairy lights" class="form-imagecheck-image" />
+				</span>
+			</label>
+		</div>
+		
+		<div class="col-6 col-sm-4">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="3" class="form-imagecheck-input" />
+				<span class="form-imagecheck-figure">
+					<img src="../static/photos/6ab3200b14549f8a.jpg" alt="Healthy Dinner" class="form-imagecheck-image" />
+				</span>
+			</label>
+		</div>
+		
+		<div class="col-6 col-sm-4">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="4" class="form-imagecheck-input" checked="" />
+				<span class="form-imagecheck-figure">
+					<img src="../static/photos/6d35d9a2bd6c63c2.jpg" alt="Aperol Spritz is a cocktail consisting of prosecco, aperitif and soda water" class="form-imagecheck-image" />
+				</span>
+			</label>
+		</div>
+		
+		<div class="col-6 col-sm-4">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="5" class="form-imagecheck-input" />
+				<span class="form-imagecheck-figure">
+					<img src="../static/photos/8a26974ee6444acd.jpg" alt="Beautiful blonde woman on a wooden pier by the lake" class="form-imagecheck-image" />
+				</span>
+			</label>
+		</div>
+		
+		<div class="col-6 col-sm-4">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="6" class="form-imagecheck-input" />
+				<span class="form-imagecheck-figure">
+					<img src="../static/photos/8c13ad59f739558c.jpg" alt="Still life of mandarin oranges with leaves" class="form-imagecheck-image" />
+				</span>
+			</label>
+		</div>
+		
+		<div class="col-6 col-sm-4">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="7" class="form-imagecheck-input" checked="" />
+				<span class="form-imagecheck-figure">
+					<img src="../static/photos/8fdeb4785d2b82ef.jpg" alt="Blonde woman having a healthy snack at the wooden pier" class="form-imagecheck-image" />
+				</span>
+			</label>
+		</div>
+		
+		<div class="col-6 col-sm-4">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="8" class="form-imagecheck-input" />
+				<span class="form-imagecheck-figure">
+					<img src="../static/photos/9f36332564ca271d.jpg" alt="Woman working on a laptop while enjoying a breakfast coffee and chocolate in bed" class="form-imagecheck-image" />
+				</span>
+			</label>
+		</div>
+		
+		<div class="col-6 col-sm-4">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="9" class="form-imagecheck-input" />
+				<span class="form-imagecheck-figure">
+					<img src="../static/photos/35b88fc04a518c1b.jpg" alt="Overhead view of macarons on a marble slab" class="form-imagecheck-image" />
+				</span>
+			</label>
+		</div>
+		
+	</div>
+</div>
+
+
+
+		
+		
+		</div>
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"mb-3"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label"</span><span class="nt">&gt;</span>Image Check<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row g-2"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-sm-4"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"1"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">alt=</span><span class="s">"Breakfast served with tea, bread and eggs"</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-sm-4"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"2"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span>  <span class="na">checked</span><span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">alt=</span><span class="s">"Book, fairy lights"</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-sm-4"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"3"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">alt=</span><span class="s">"Healthy Dinner"</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-sm-4"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"4"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span>  <span class="na">checked</span><span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">alt=</span><span class="s">"Aperol Spritz is a cocktail consisting of prosecco, aperitif and soda water"</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-sm-4"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"5"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">alt=</span><span class="s">"Beautiful blonde woman on a wooden pier by the lake"</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-sm-4"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"6"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">alt=</span><span class="s">"Still life of mandarin oranges with leaves"</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-sm-4"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"7"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span>  <span class="na">checked</span><span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">alt=</span><span class="s">"Blonde woman having a healthy snack at the wooden pier"</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-sm-4"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"8"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">alt=</span><span class="s">"Woman working on a laptop while enjoying a breakfast coffee and chocolate in bed"</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-6 col-sm-4"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"9"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">alt=</span><span class="s">"Overhead view of macarons on a marble slab"</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+
+<div class="mb-3">
+	<label class="form-label">Person Check</label>
+	<div class="row g-2">
+		
+		<div class="col-auto">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="1" class="form-imagecheck-input" />
+				<span class="form-imagecheck-figure">
+					<span class="form-imagecheck-image">
+						<span class="avatar avatar-md" style="background-image: url(../static/avatars/003f.jpg)"></span>
+
+					</span>
+				</span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="2" class="form-imagecheck-input" checked="" />
+				<span class="form-imagecheck-figure">
+					<span class="form-imagecheck-image">
+						<span class="avatar avatar-md">HS</span>
+
+					</span>
+				</span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="3" class="form-imagecheck-input" />
+				<span class="form-imagecheck-figure">
+					<span class="form-imagecheck-image">
+						<span class="avatar avatar-md" style="background-image: url(../static/avatars/006m.jpg)"></span>
+
+					</span>
+				</span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="4" class="form-imagecheck-input" checked="" />
+				<span class="form-imagecheck-figure">
+					<span class="form-imagecheck-image">
+						<span class="avatar avatar-md" style="background-image: url(../static/avatars/004f.jpg)"></span>
+
+					</span>
+				</span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="5" class="form-imagecheck-input" />
+				<span class="form-imagecheck-figure">
+					<span class="form-imagecheck-image">
+						<span class="avatar avatar-md" style="background-image: url(../static/avatars/007m.jpg)"></span>
+
+					</span>
+				</span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="6" class="form-imagecheck-input" />
+				<span class="form-imagecheck-figure">
+					<span class="form-imagecheck-image">
+						<span class="avatar avatar-md">SA</span>
+
+					</span>
+				</span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="7" class="form-imagecheck-input" checked="" />
+				<span class="form-imagecheck-figure">
+					<span class="form-imagecheck-image">
+						<span class="avatar avatar-md" style="background-image: url(../static/avatars/009m.jpg)"></span>
+
+					</span>
+				</span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="8" class="form-imagecheck-input" />
+				<span class="form-imagecheck-figure">
+					<span class="form-imagecheck-image">
+						<span class="avatar avatar-md" style="background-image: url(../static/avatars/010m.jpg)"></span>
+
+					</span>
+				</span>
+			</label>
+		</div>
+		
+		<div class="col-auto">
+			<label class="form-imagecheck mb-2">
+				<input name="form-imagecheck" type="checkbox" value="9" class="form-imagecheck-input" />
+				<span class="form-imagecheck-figure">
+					<span class="form-imagecheck-image">
+						<span class="avatar avatar-md" style="background-image: url(../static/avatars/005f.jpg)"></span>
+
+					</span>
+				</span>
+			</label>
+		</div>
+		
+	</div>
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"mb-3"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label"</span><span class="nt">&gt;</span>Person Check<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row g-2"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"1"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-md"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+          <span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"2"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span>  <span class="na">checked</span><span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-md"</span><span class="nt">&gt;</span>HS<span class="nt">&lt;/span&gt;</span>
+          <span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"3"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-md"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+          <span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"4"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span>  <span class="na">checked</span><span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-md"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+          <span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"5"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-md"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+          <span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"6"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-md"</span><span class="nt">&gt;</span>SA<span class="nt">&lt;/span&gt;</span>
+          <span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"7"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span>  <span class="na">checked</span><span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-md"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+          <span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"8"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-md"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+          <span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-auto"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-imagecheck mb-2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">"form-imagecheck"</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">value=</span><span class="s">"9"</span> <span class="na">class=</span><span class="s">"form-imagecheck-input"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-figure"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"form-imagecheck-image"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar avatar-md"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+          <span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;/label&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+:ET

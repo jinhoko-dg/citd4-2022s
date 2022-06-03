@@ -1,0 +1,194 @@
+I"ž!<h2 id="border-direction">Border direction</h2>
+
+<p>The following border utilities classes will add border to any side of an element.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		<div class="d-flex space-x-3">
+
+		
+<div class="w-5 h-5 bg-light border"></div>
+<div class="w-5 h-5 bg-light border-top"></div>
+<div class="w-5 h-5 bg-light border-end"></div>
+<div class="w-5 h-5 bg-light border-bottom"></div>
+<div class="w-5 h-5 bg-light border-start"></div>
+<div class="w-5 h-5 bg-light border-x"></div>
+<div class="w-5 h-5 bg-light border-y"></div>
+
+
+		</div>
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border-top"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border-end"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border-bottom"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border-start"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border-x"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border-y"</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="border-size">Border size</h2>
+
+<p>Below are the available border size utilities classes.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		<div class="d-flex space-x-3">
+
+		
+<div class="w-5 h-5 bg-light border-0"></div>
+<div class="w-5 h-5 bg-light border"></div>
+<div class="w-5 h-5 bg-light border-wide"></div>
+
+
+		</div>
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border-0"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border-wide"</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="remove-border">Remove border</h2>
+
+<p>You can remove a border on a single side of an element by using the following border utilities classes.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		<div class="d-flex space-x-3">
+
+		
+<div class="w-5 h-5 bg-light border border-top-0"></div>
+<div class="w-5 h-5 bg-light border border-end-0"></div>
+<div class="w-5 h-5 bg-light border border-bottom-0"></div>
+<div class="w-5 h-5 bg-light border border-start-0"></div>
+<div class="w-5 h-5 bg-light border border-x-0"></div>
+<div class="w-5 h-5 bg-light border border-y-0"></div>
+
+
+		</div>
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border border-top-0"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border border-end-0"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border border-bottom-0"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border border-start-0"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border border-x-0"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border border-y-0"</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="border-color">Border color</h2>
+
+<p>You can set a border color of any side of an element by adding the following utilities classes below.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		<div class="btn-list">
+
+		
+
+<div class="w-5 h-5 bg-light border border-primary"></div>
+
+<div class="w-5 h-5 bg-light border border-secondary"></div>
+
+<div class="w-5 h-5 bg-light border border-success"></div>
+
+<div class="w-5 h-5 bg-light border border-warning"></div>
+
+<div class="w-5 h-5 bg-light border border-danger"></div>
+
+<div class="w-5 h-5 bg-light border border-info"></div>
+
+<div class="w-5 h-5 bg-light border border-light"></div>
+
+<div class="w-5 h-5 bg-light border border-dark"></div>
+
+
+
+		</div>
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border border-primary"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border border-secondary"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border border-success"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border border-warning"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border border-danger"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border border-info"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border border-light"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border border-dark"</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="border-radius">Border radius</h2>
+
+<p>You can set a border to any element by using the following utilities classes below.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		<div class="d-flex space-x-3">
+
+		
+<div class="w-5 h-5 bg-light border rounded-0"></div>
+<div class="w-5 h-5 bg-light border rounded"></div>
+<div class="w-5 h-5 bg-light border rounded-1"></div>
+<div class="w-5 h-5 bg-light border rounded-2"></div>
+<div class="w-5 h-5 bg-light border rounded-3"></div>
+<div class="w-5 h-5 bg-light border rounded-circle"></div>
+
+
+		</div>
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border rounded-0"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border rounded"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border rounded-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border rounded-2"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border rounded-3"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"w-5 h-5 bg-light border rounded-circle"</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+:ET

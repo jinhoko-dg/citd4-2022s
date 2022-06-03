@@ -1,0 +1,262 @@
+<!-- Libs JS -->
+{% assign libs = page.libs | default: layout.libs %}
+
+{% assign google-maps-key = site.google-maps-dev-key %}
+{% if jekyll.environment == 'preview' %}
+	{% assign google-maps-key = site.google-maps-key %}
+{% endif %}
+
+{% for lib in site.data.libs.js %}
+	{% if libs contains lib[0] or site.data.libs.global-libs contains lib[0] %}
+		{% for file in lib[1] %}
+		<script src="{% if file contains 'http://' or file contains 'https://' %}{{ file | replace: 'GOOGLE_MAPS_KEY', google-maps-key }}{% else %}{{ site.base }}/{% if jekyll.environment != 'development' %}dist/libs{% else %}node_modules{% endif %}/{% if jekyll.environment != 'development' %}{{ file | replace: '@', '' }}{% else %}{{ file }}{% endif %}{% if jekyll.environment == 'preview' %}?{{ site.time | date: '%s' }}{% endif %}{% endif %}"></script>
+		{% endfor %}
+	{% endif %}
+{% endfor %}
+
+<!-- Tabler Core -->
+
+<script src="{{ site.base }}/dist/js/tabler{% if jekyll.environment != 'development' %}.min{% endif %}.js{% if jekyll.environment == 'preview' %}?{{ site.time | date: '%s' }}{% endif %}"></script>
+
+
+{% removeemptylines %}
+{% for script in site.captured_global.scripts %}
+{{ script }}
+{% endfor %}
+
+{% for script in site.captured_once.scripts %}
+{{ script }}
+{% endfor %}
+{% endremoveemptylines %}
+
+{% assign libs = page.libs | default: layout.libs %}
+{% for lib in site.data.libs.js-files %}
+{% if libs contains lib[0] or site.data.libs.global-libs contains lib[0] %}
+{% for file in lib[1] %}
+
+{% assign filename = 'js/' | append: file | append: '.html' %}
+{% include {{filename }} %}
+
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+<!-- JHKO ajax -->
+<script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-core.min.js" type="text/javascript"></script>
+<script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-stock.min.js" type="text/javascript"></script>
+<script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-data-adapter.min.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cytoscape@3.21.1/dist/cytoscape.min.js"></script>
+
+<style>
+    #dxdp-pricechart {
+      width: 100%;
+      height: 400px;
+      margin: 0;
+      padding: 0;
+    }
+</style>
+<style>
+    #dxdp-inspection{
+      width: 100%;
+      height: 400px;
+      margin: 0;
+      padding: 0;
+    }
+</style>
+
+<script>
+var chart = null;
+var chart1 = null;
+var chart2 = null;
+var cy = null;
+var node_values = null;
+
+function updateBasicChart(data, name) {
+
+	// disable origin
+	if (chart){
+		chart.dispose()
+	}
+	var dataTable = anychart.data.table(0, 'yyyy-MM-dd');
+	dataTable.addData(data);
+	var mapping = dataTable.mapAs({ 'open': 2, 'high': 3, 'low': 4, 'close': 1 });
+	// global chart
+	chart = anychart.stock();
+	var series = chart.plot(0).candlestick(mapping);
+	series.name(name);
+	chart.container('dxdp-pricechart');
+	chart.draw();
+
+};
+
+function updateInspection(data, name){
+
+	if(chart1) {
+		chart1.dispose()
+	}
+	var dataTable = anychart.data.table(0, 'yyyy-MM-dd');
+	dataTable.addData(data);
+	var mapping = dataTable.mapAs({ 'value': 1 });
+	// global chart
+	chart1 = anychart.stock();
+	var series = chart1.plot(0).line(mapping);
+	series.name(name);
+	chart1.container('dxdp-inspection');
+	chart1.draw();
+}
+
+function updateGraph(elements) {
+
+	if(cy) {
+		cy.destroy()
+	}
+	console.log(elements);
+	cy = cytoscape({
+	
+		container: document.getElementById('dxdp-cy'), // container to render in	  
+		elements: elements,
+		style: [ // the stylesheet for the graph
+			{
+				selector: 'node',
+				style: {
+					'label': 'data(name)',
+					'background-color': 'data(bg)',
+					'text-valign': 'center',
+					'font-size': 10,
+					'text-outline-width': 2,
+					'text-outline-color': '#fff',
+					'border-width': 2,
+					'border-color': function(ele){
+						if(ele.data('fund') == '1') {
+							return '#F76707'
+						} else if( ele.data('fund') == '2') {
+							return '#f000'
+						}
+						return '#2fb344'
+					},
+					'width': function( ele ){ return parseInt(ele.data('sz')) },
+					'height': function( ele ){ return parseInt(ele.data('sz')) }
+				}
+			},
+			{
+				selector: 'edge',
+				style: {
+					'width': function(ele){
+						if(ele.data('dot') == '1') {
+							return 1
+						}
+						return  parseInt(ele.data('width'))
+					},
+					'label': 'data(name)',
+					'font-size': 8,
+					'line-color': '#ccc',
+					'target-arrow-color': '#ccc',
+					'target-arrow-shape': 'triangle',
+					'curve-style': 'bezier',
+					'line-style' : function(ele){
+						if(ele.data('dot') == '1') {
+							return 'dashed'
+						}
+						return 'solid'
+					},
+					'line-dash-pattern': function( ele ){
+						if(ele.data('dot') == '1') {
+							return [6,3]
+						}
+						return [0,0]
+					},
+				}
+			}
+		],
+		layout: {
+			// https://js.cytoscape.org/#layouts
+			name: 'concentric',
+			padding: 30,
+			minNodeSpacing: 40
+		  },
+
+	});
+	// inspection
+	cy.on('tap', 'node', function( evt ){
+		var node = evt.target;
+		$('#dxdp-vertex-desc').text(node.data('desc'))
+		updateInspection(node_values[node.id()], node.data('name'))
+	});
+}
+
+function updateNL(data){
+	$('#dxdp-fund').text(data[0])
+	$('#dxdp-tech').text(data[1])
+}
+
+$( document ).ready( $(function() {
+	$('#dxdp-submit').children().on('click', function(e) {
+		
+		// modal
+		$('#modal-simple').modal('toggle');
+
+		// get data
+		var ticker =  $('div#dxdp-ticker').children().val();
+		var date = $('input#datepicker-dxdp-date').val();
+
+		$('#dxdp-ticker-invalid').text("")
+		$('#dxdp-date-invalid').text("")
+
+		var response = $.getJSON('http://server1.jinhoko.com:30003/query/'+ticker+'/'+date, function (data) {
+			// update
+			if( data['ok'] == 0 ) {
+				$('#dxdp-current').text('Current view : ' + data['name']+ '('+ data['ticker']+') on '+data['date'] )
+				$('#dxdp-currentticker').text(data['ticker'])
+				$('#dxdp-currentdate').text(data['date'])
+				console.log("start updating")
+				// update basic chart
+				updateBasicChart(data['ticker-price'], data['name'])
+				// TODO delete
+				updateInspection(data['ticker-price'], data['name'])
+				// update graph
+				updateGraph(data['graph-data'])
+				// update NL
+				updateNL(data['nl'])
+				
+				node_values = data['node-values']
+				if(chart1) {
+					chart1.dispose()
+				}
+
+			}
+			else if( data['ok'] == 1) {
+				$('#dxdp-ticker-invalid').text("! 존재하지 않는 종목(이름/코드)입니다")
+			}
+			else if( data['ok'] == 2 ){
+				$('#dxdp-date-invalid').text("! 해당 날짜에 주식시장이 열지 않았습니다")
+			}
+			
+			// modal
+			$('#modal-simple').modal('toggle'); 
+			console.log('done')
+		}).fail(function() {
+			$('#modal-simple').modal('toggle'); 
+		});
+		
+	});
+})
+);
+</script>
+
+
+
+<style>
+    #dxdp-cy {
+      width: 100%;
+      height: 600px;
+      margin: 0;
+      padding: 0;
+    }
+</style>
+<script>
+
+console.log(cy)
+	  
+</script>

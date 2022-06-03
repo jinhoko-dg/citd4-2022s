@@ -1,0 +1,132 @@
+---
+menu: home
+libs: nouislider, autosize, tabler-flags, tabler-payments, litepicker, tom-select
+layout-fluid: true
+layout-navbar-hide-menu: true
+
+layout-navbar-dark: true
+---
+<!-- layout-dark: true -->
+
+
+<div class="row row-cards">
+	<!-- left -->
+	<div class="col-sm-7" >
+		<div class="row row-cards">
+			<!-- insert form t-->
+			<div class="col-12">
+				<div class="card">
+					<div class="card-header">
+						<h4 class="card-title">Select Ticker</h4>
+					</div>
+					<div class="card-body">
+						<div class="row row-cards">
+							<div class="col-5">
+								<label class="form-label">Ticker</label>
+								<div class="mb-3" id="dxdp-ticker">
+									<input type="text" class="form-control" name="example-text-input" value="" placeholder="Ticker Name or 6-digit code">
+									<div id='dxdp-ticker-invalid' class="invalid-feedback" style="display:unset"></div>
+								</div>
+							</div>
+							<div class="col-5">
+								<label class="form-label">Date (~2021)</label>
+								{% include ui/datepicker.html id="icon" layout="icon" class="mb-2" id="dxdp-date" %}
+							</div>
+							<div class="col-2 d-flex" id="dxdp-submit">
+								<button type="submit" class="btn btn-primary ms-auto">Submit</button>
+							</div>
+							{% include ui/modal.html modal-id="simple" %}
+						</div>
+						<div class="row row-cards">
+							<div class="col-12">
+								<div id="dxdp-current"></div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- NL -->
+			<div class="col-12">
+				<div class="card">
+					<div class="card-header">
+						<h4 class="card-title">Fuandamental Analysis (기본적 분석)</h4>
+					</div>
+					<div class="card-status-top bg-warning"></div>
+					<div class="card-body">
+						<div id="dxdp-fund" style="font-size: 16px"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12">
+				<div class="card">
+					<div class="card-header">
+						<h4 class="card-title">Technical Analysis (기술적 분석)</h4>
+					</div>
+					<div class="card-status-top bg-success"></div>
+					<div class="card-body">
+						<div id="dxdp-tech" style="font-size: 16px"></div>
+					</div>
+				</div>
+			</div>
+			<!-- graph -->
+			<div class="col-12">
+				<div class="card">
+					<div class="card-header">
+						<h4 class="card-title">Graph View</h4>
+					</div>
+					<div class="card-body">
+							<div>
+							<label class="form-colorinput">
+								<span class="form-colorinput-color bg-red rounded-circle"></span>
+							</label>
+							상승 요인
+							<label class="form-colorinput">
+								<span class="form-colorinput-color bg-purple rounded-circle"></span>
+							</label>
+							중립 요인
+							<label class="form-colorinput">
+								<span class="form-colorinput-color bg-blue rounded-circle"></span>
+							</label>
+							하락 요인
+						</div>
+						<div id="dxdp-cy"></div>
+						<div>(각 node를 클릭하면 자세한 정보를 볼 수 있습니다.)</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<!-- right -->
+	<div class="col-sm-5">
+		<div class="row row-cards">
+			<!-- ticker price -->
+			<div class="col-12">
+				<div class="card">
+					<div class="card-header">
+						<h4 class="card-title">Ticker price</h4>
+					</div>
+					<div class="card-body">
+						<div id="dxdp-pricechart"></div>
+					</div>
+				</div>
+			</div>
+			<!-- inspection graph -->
+			<div class="col-12">
+				<div class="card">
+					<div class="card-header">
+						<h4 class="card-title">Details</h4>
+					</div>
+					<div class="card-body">
+						<div class="card-body">
+							<div id="dxdp-vertex-desc"></div>
+							<div id="dxdp-inspection"></div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

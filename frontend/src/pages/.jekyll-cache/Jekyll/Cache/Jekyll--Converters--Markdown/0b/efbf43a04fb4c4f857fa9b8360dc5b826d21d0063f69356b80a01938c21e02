@@ -1,0 +1,61 @@
+I"W
+<h2 id="text-selection">Text selection</h2>
+
+<p>Change the way in which the content is selected when the user interacts with it.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<p class="user-select-all">This paragraph will be entirely selected when clicked by the user.</p>
+<p class="user-select-auto">This paragraph has default select behavior.</p>
+<p class="user-select-none">This paragraph will not be selectable when clicked by the user.</p>
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"user-select-all"</span><span class="nt">&gt;</span>This paragraph will be entirely selected when clicked by the user.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"user-select-auto"</span><span class="nt">&gt;</span>This paragraph has default select behavior.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"user-select-none"</span><span class="nt">&gt;</span>This paragraph will not be selectable when clicked by the user.<span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="pointer-events">Pointer events</h2>
+
+<p>Tabler provides .pe-none and .pe-auto classes to prevent or add element interactions.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<p><a href="javascript:void(0)" class="pe-none" tabindex="-1" aria-disabled="true">This link</a> can not be clicked.</p>
+<p><a href="javascript:void(0)" class="pe-auto">This link</a> can be clicked (this is default behavior).</p>
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"pe-none"</span> <span class="na">tabindex=</span><span class="s">"-1"</span> <span class="na">aria-disabled=</span><span class="s">"true"</span><span class="nt">&gt;</span>This link<span class="nt">&lt;/a&gt;</span> can not be clicked.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"pe-auto"</span><span class="nt">&gt;</span>This link<span class="nt">&lt;/a&gt;</span> can be clicked (this is default behavior).<span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+</div>
+:ET

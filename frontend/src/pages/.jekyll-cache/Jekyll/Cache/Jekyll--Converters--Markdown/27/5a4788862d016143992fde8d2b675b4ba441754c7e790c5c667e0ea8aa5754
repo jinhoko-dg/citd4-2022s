@@ -1,0 +1,250 @@
+I"Ü$<h2 id="default-markup">Default markup</h2>
+
+<p>Use the <code class="language-plaintext highlighter-rouge">ribbon</code> class to add the default ribbon to any section of your interface.</p>
+
+<div class="example no_toc_section example-bg">
+	<div class="example-content">
+		
+		<div class="example-column example-column-1">
+		
+		
+
+		
+
+
+
+<div class="card">
+	<div class="card-body" style="height: 5rem">
+		
+	</div>
+
+	<div class="ribbon">
+	<!-- Download SVG icon from http://tabler-icons.io/i/star -->
+	<svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" /></svg>
+
+</div>
+</div>
+
+
+
+		
+		</div>
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-body"</span> <span class="na">style=</span><span class="s">"height: 5rem"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ribbon"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Download SVG icon from http://tabler-icons.io/i/star --&gt;</span>
+    <span class="c">&lt;!-- SVG icon code --&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="ribbon-position">Ribbon position</h2>
+
+<p>You can change the position of a ribbon by adding one of the following classes to the element:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">ribbon-top</code> - moves it to the top</li>
+  <li><code class="language-plaintext highlighter-rouge">ribbon-end</code> - moves it to the right</li>
+  <li><code class="language-plaintext highlighter-rouge">ribbon-bottom</code> - moves it to the bottom</li>
+  <li><code class="language-plaintext highlighter-rouge">ribbon-start</code> - moves it to the left</li>
+</ul>
+
+<p>Using multiple classes at once will give you more position options. For example, the following class: <code class="language-plaintext highlighter-rouge">.ribbon.ribbon-top.ribbon-left</code> will move the ribbon to the top left corner.</p>
+
+<div class="example no_toc_section example-bg">
+	<div class="example-content">
+		
+		<div class="example-column example-column-1">
+		
+		
+
+		
+
+
+
+<div class="card">
+	<div class="card-body" style="height: 5rem">
+		
+	</div>
+
+	<div class="ribbon ribbon-top ribbon-start">
+	<!-- Download SVG icon from http://tabler-icons.io/i/star -->
+	<svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" /></svg>
+
+</div>
+</div>
+
+
+
+		
+		</div>
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-body"</span> <span class="na">style=</span><span class="s">"height: 5rem"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ribbon ribbon-top ribbon-start"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Download SVG icon from http://tabler-icons.io/i/star --&gt;</span>
+    <span class="c">&lt;!-- SVG icon code --&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="ribbon-color">Ribbon color</h2>
+
+<p>Customize the ribbonâ€™s background color. You can click <a href="./colors.html">here</a> to see the list of available colors.</p>
+
+<div class="example no_toc_section example-bg">
+	<div class="example-content">
+		
+		<div class="example-column example-column-1">
+		
+		
+
+		
+
+
+
+<div class="card">
+	<div class="card-body" style="height: 5rem">
+		
+	</div>
+
+	<div class="ribbon bg-red">
+	<!-- Download SVG icon from http://tabler-icons.io/i/star -->
+	<svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" /></svg>
+
+</div>
+</div>
+
+
+
+		
+		</div>
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-body"</span> <span class="na">style=</span><span class="s">"height: 5rem"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ribbon bg-red"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Download SVG icon from http://tabler-icons.io/i/star --&gt;</span>
+    <span class="c">&lt;!-- SVG icon code --&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="ribbon-text">Ribbon text</h2>
+
+<p>Add your own text to a ribbon to display any additional information and make it easy to spot for users.</p>
+
+<div class="example no_toc_section example-bg">
+	<div class="example-content">
+		
+		<div class="example-column example-column-1">
+		
+		
+
+		
+
+
+
+<div class="card">
+	<div class="card-body" style="height: 5rem">
+		
+	</div>
+
+	<div class="ribbon bg-green">
+	<!-- Download SVG icon from http://tabler-icons.io/i/star -->
+	<svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" /></svg>
+
+</div>
+</div>
+
+
+
+		
+		</div>
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-body"</span> <span class="na">style=</span><span class="s">"height: 5rem"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ribbon bg-green"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Download SVG icon from http://tabler-icons.io/i/star --&gt;</span>
+    <span class="c">&lt;!-- SVG icon code --&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="ribbon-style">Ribbon style</h2>
+
+<p>Change the style of a ribbon to make it go well with your interface design.</p>
+
+<div class="example no_toc_section example-bg">
+	<div class="example-content">
+		
+		<div class="example-column example-column-1">
+		
+		
+
+		
+
+
+
+<div class="card">
+	<div class="card-body" style="height: 5rem">
+		
+	</div>
+
+	<div class="ribbon ribbon-bookmark bg-orange">
+	<!-- Download SVG icon from http://tabler-icons.io/i/star -->
+	<svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" /></svg>
+
+</div>
+</div>
+
+
+
+		
+		</div>
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-body"</span> <span class="na">style=</span><span class="s">"height: 5rem"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ribbon ribbon-bookmark bg-orange"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Download SVG icon from http://tabler-icons.io/i/star --&gt;</span>
+    <span class="c">&lt;!-- SVG icon code --&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+:ET

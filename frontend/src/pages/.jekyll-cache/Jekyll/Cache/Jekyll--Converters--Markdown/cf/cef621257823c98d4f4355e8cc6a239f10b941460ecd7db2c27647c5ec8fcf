@@ -1,0 +1,30 @@
+I"a<h2 id="default-markup">Default markup</h2>
+
+<p>Use an input mask in the fields where users have to enter their phone number, to make the formatting rules clear and help them avoid confusion.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<label class="form-label">Telephone mask</label>
+<input type="text" name="input-mask" class="form-control" data-mask="(00) 0000-0000" data-mask-visible="true" placeholder="(00) 0000-0000" autocomplete="off" />
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label"</span><span class="nt">&gt;</span>Telephone mask<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">name=</span><span class="s">"input-mask"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">data-mask=</span><span class="s">"(00) 0000-0000"</span> <span class="na">data-mask-visible=</span><span class="s">"true"</span> <span class="na">placeholder=</span><span class="s">"(00) 0000-0000"</span> <span class="na">autocomplete=</span><span class="s">"off"</span><span class="nt">/&gt;</span></code></pre></figure>
+
+</div>
+
+:ET

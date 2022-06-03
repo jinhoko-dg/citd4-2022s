@@ -1,0 +1,674 @@
+I"1n<h2 id="default-dropdown">Default dropdown</h2>
+
+<p>With small markup changes, you can turn any <code class="language-plaintext highlighter-rouge">.btn</code> into a dropdown toggle and use it to display more options for users to choose from. Start with the default dropdown and then use additional classes to make your dropdown more user-friendly.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div class="dropdown-menu dropdown-menu-demo">
+	
+		
+		<a class="dropdown-item" href="javascript:void(0)">
+			
+			Action
+			
+		</a>
+		<a class="dropdown-item" href="javascript:void(0)">
+			Another action
+			
+		</a>
+		
+		
+		
+	
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu dropdown-menu-demo"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    Action
+  <span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    Another action
+  <span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="dropdown-divider">Dropdown divider</h2>
+
+<p>Use dropdown dividers to separate groups of dropdown items for greater clarity.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div class="dropdown-menu dropdown-menu-demo">
+	
+		
+		<a class="dropdown-item" href="javascript:void(0)">
+			
+			Action
+			
+		</a>
+		<a class="dropdown-item" href="javascript:void(0)">
+			Another action
+			
+		</a>
+		
+		
+		
+		<div class="dropdown-divider"></div>
+		<a class="dropdown-item" href="javascript:void(0)">Separated link</a>
+		
+	
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu dropdown-menu-demo"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    Action
+  <span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    Another action
+  <span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-divider"</span><span class="nt">&gt;&lt;/div&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Separated link<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="active-state">Active state</h2>
+
+<p>Make a dropdown item look active, so that it highlights when a user hovers over a given option.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div class="dropdown-menu dropdown-menu-demo">
+	
+		
+		<a class="dropdown-item" href="javascript:void(0)">
+			
+			Action
+			
+		</a>
+		<a class="dropdown-item" href="javascript:void(0)">
+			Another action
+			
+		</a>
+		<a class="dropdown-item active" href="javascript:void(0)">Active action</a>
+		
+		
+	
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu dropdown-menu-demo"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    Action
+  <span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    Another action
+  <span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item active"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Active action<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="disabled-state">Disabled state</h2>
+
+<p>Make a dropdown item look disabled to display options which are currently not available but can activate once certain conditions are met.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div class="dropdown-menu dropdown-menu-demo">
+	
+		
+		<a class="dropdown-item" href="javascript:void(0)">
+			
+			Action
+			
+		</a>
+		<a class="dropdown-item" href="javascript:void(0)">
+			Another action
+			
+		</a>
+		
+		<a class="dropdown-item disabled" href="javascript:void(0)">Disabled action</a>
+		
+	
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu dropdown-menu-demo"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    Action
+  <span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    Another action
+  <span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item disabled"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Disabled action<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="dropdown-header">Dropdown header</h2>
+
+<p>Add a dropdown header to group dropdown items into sections and name them accordingly.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div class="dropdown-menu dropdown-menu-demo">
+	
+		<span class="dropdown-header">Dropdown header</span>
+		<a class="dropdown-item" href="javascript:void(0)">
+			
+			Action
+			
+		</a>
+		<a class="dropdown-item" href="javascript:void(0)">
+			Another action
+			
+		</a>
+		
+		
+		
+	
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu dropdown-menu-demo"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"dropdown-header"</span><span class="nt">&gt;</span>Dropdown header<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    Action
+  <span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    Another action
+  <span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="dropdown-with-icons">Dropdown with icons</h2>
+
+<p>Use icons in your dropdowns to add more visual content and make the options easy to identify for users.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div class="dropdown-menu dropdown-menu-demo">
+	
+		<span class="dropdown-header">Dropdown header</span>
+		<a class="dropdown-item" href="javascript:void(0)">
+			<!-- Download SVG icon from http://tabler-icons.io/i/settings -->
+	<svg xmlns="http://www.w3.org/2000/svg" class="icon dropdown-item-icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" /><circle cx="12" cy="12" r="3" /></svg>
+ 
+			Action
+			
+		</a>
+		<a class="dropdown-item" href="javascript:void(0)">
+			<!-- Download SVG icon from http://tabler-icons.io/i/edit -->
+	<svg xmlns="http://www.w3.org/2000/svg" class="icon dropdown-item-icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M9 7h-3a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-3" /><path d="M9 15h3l8.5 -8.5a1.5 1.5 0 0 0 -3 -3l-8.5 8.5v3" /><line x1="16" y1="5" x2="19" y2="8" /></svg>
+ Another action
+			
+		</a>
+		
+		
+		
+	
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu dropdown-menu-demo"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"dropdown-header"</span><span class="nt">&gt;</span>Dropdown header<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Download SVG icon from http://tabler-icons.io/i/settings --&gt;</span>
+    <span class="c">&lt;!-- SVG icon code with class="dropdown-item-icon" --&gt;</span>
+    Action
+  <span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Download SVG icon from http://tabler-icons.io/i/edit --&gt;</span>
+    <span class="c">&lt;!-- SVG icon code with class="dropdown-item-icon" --&gt;</span>
+    Another action
+  <span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="dropdown-with-arrow">Dropdown with arrow</h2>
+
+<p>Add an arrow that points at the dropdown button.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div class="dropdown-menu dropdown-menu-demo dropdown-menu-arrow">
+	
+		
+		<a class="dropdown-item" href="javascript:void(0)">
+			
+			Action
+			
+		</a>
+		<a class="dropdown-item" href="javascript:void(0)">
+			Another action
+			
+		</a>
+		
+		
+		
+	
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu dropdown-menu-demo dropdown-menu-arrow"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    Action
+  <span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    Another action
+  <span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="dropdown-with-badge">Dropdown with badge</h2>
+
+<p>Add a badge to your dropdown items to show additional information related to an item or distinguish it from other elements.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div class="dropdown-menu dropdown-menu-demo">
+	
+		
+		<a class="dropdown-item" href="javascript:void(0)">
+			
+			Action
+			<span class="badge bg-primary ms-auto">12</span>
+		</a>
+		<a class="dropdown-item" href="javascript:void(0)">
+			Another action
+			<span class="badge bg-green ms-auto"></span>
+		</a>
+		
+		
+		
+	
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu dropdown-menu-demo"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    Action
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"badge bg-primary ms-auto"</span><span class="nt">&gt;</span>12<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    Another action
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"badge bg-green ms-auto"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  <span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="dropdown-with-checkboxes">Dropdown with checkboxes</h2>
+
+<p>Use dropdowns with checkboxes to allow users to select options from a predefined list. Dropdowns with checkboxes are particularly useful for filtering.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div class="dropdown-menu dropdown-menu-demo">
+	
+		
+		<label class="dropdown-item"><input class="form-check-input m-0 me-2" type="checkbox" /> Option 1</label>
+		
+		<label class="dropdown-item"><input class="form-check-input m-0 me-2" type="checkbox" /> Option 2</label>
+		
+		<label class="dropdown-item"><input class="form-check-input m-0 me-2" type="checkbox" /> Option 3</label>
+		
+	
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu dropdown-menu-demo"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="nt">&gt;&lt;input</span> <span class="na">class=</span><span class="s">"form-check-input m-0 me-2"</span> <span class="na">type=</span><span class="s">"checkbox"</span><span class="nt">&gt;</span> Option 1<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="nt">&gt;&lt;input</span> <span class="na">class=</span><span class="s">"form-check-input m-0 me-2"</span> <span class="na">type=</span><span class="s">"checkbox"</span><span class="nt">&gt;</span> Option 2<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="nt">&gt;&lt;input</span> <span class="na">class=</span><span class="s">"form-check-input m-0 me-2"</span> <span class="na">type=</span><span class="s">"checkbox"</span><span class="nt">&gt;</span> Option 3<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div class="dropdown-menu dropdown-menu-demo">
+	
+		
+		<label class="dropdown-item"><input class="form-check-input m-0 me-2" type="radio" /> Option 1</label>
+		
+		<label class="dropdown-item"><input class="form-check-input m-0 me-2" type="radio" /> Option 2</label>
+		
+		<label class="dropdown-item"><input class="form-check-input m-0 me-2" type="radio" /> Option 3</label>
+		
+	
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu dropdown-menu-demo"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="nt">&gt;&lt;input</span> <span class="na">class=</span><span class="s">"form-check-input m-0 me-2"</span> <span class="na">type=</span><span class="s">"radio"</span><span class="nt">&gt;</span> Option 1<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="nt">&gt;&lt;input</span> <span class="na">class=</span><span class="s">"form-check-input m-0 me-2"</span> <span class="na">type=</span><span class="s">"radio"</span><span class="nt">&gt;</span> Option 2<span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="nt">&gt;&lt;input</span> <span class="na">class=</span><span class="s">"form-check-input m-0 me-2"</span> <span class="na">type=</span><span class="s">"radio"</span><span class="nt">&gt;</span> Option 3<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="dark-dropdown">Dark dropdown</h2>
+
+<p>Make your dropdown suit the dark mode of your website or software.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<div class="dropdown-menu dropdown-menu-demo dropdown-menu-arrow bg-dark text-white">
+	
+		<span class="dropdown-header">Dropdown header</span>
+		<a class="dropdown-item" href="javascript:void(0)">
+			<!-- Download SVG icon from http://tabler-icons.io/i/settings -->
+	<svg xmlns="http://www.w3.org/2000/svg" class="icon dropdown-item-icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" /><circle cx="12" cy="12" r="3" /></svg>
+ 
+			Action
+			
+		</a>
+		<a class="dropdown-item" href="javascript:void(0)">
+			<!-- Download SVG icon from http://tabler-icons.io/i/edit -->
+	<svg xmlns="http://www.w3.org/2000/svg" class="icon dropdown-item-icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M9 7h-3a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-3" /><path d="M9 15h3l8.5 -8.5a1.5 1.5 0 0 0 -3 -3l-8.5 8.5v3" /><line x1="16" y1="5" x2="19" y2="8" /></svg>
+ Another action
+			
+		</a>
+		
+		
+		
+	
+</div>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu dropdown-menu-demo dropdown-menu-arrow bg-dark text-white"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"dropdown-header"</span><span class="nt">&gt;</span>Dropdown header<span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Download SVG icon from http://tabler-icons.io/i/settings --&gt;</span>
+    <span class="c">&lt;!-- SVG icon code with class="dropdown-item-icon" --&gt;</span>
+    Action
+  <span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Download SVG icon from http://tabler-icons.io/i/edit --&gt;</span>
+    <span class="c">&lt;!-- SVG icon code with class="dropdown-item-icon" --&gt;</span>
+    Another action
+  <span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="dropdown-with-card-content">Dropdown with card content</h2>
+
+<p>Use a dropdown with card content to make it easy for users to get more information on a given subject and avoid ovewhelming them with too much content at once.</p>
+
+<div class="example no_toc_section example-centered">
+	<div class="example-content">
+		
+		
+		
+		<div class="btn-list align-items-start">
+
+		
+<a href="javascript:void(0)" class="btn btn-white">
+Button
+</a>
+<div class="dropdown show">
+    <a href="javascript:void(0)" class="btn btn-primary dropdown-toggle">Dropdown</a>
+    <div class="dropdown-menu dropdown-menu-card show position-static" style="max-width: 20rem;">
+        
+
+
+
+
+
+
+
+
+
+<div class="card d-flex flex-column">
+
+   
+      
+      <a href="javascript:void(0)">
+         <img class="card-img-top" src="../static/photos/36e273986ed577b8.jpg" alt="How do you know she is a witch?" />
+      </a>
+      
+      <div class="card-body d-flex flex-column">
+         
+   <h3 class="card-title"><a href="javascript:void(0)">How do you know she is a witch?</a></h3>
+
+   <div class="text-muted">Are you suggesting that coconuts migrate? No, no, no! Yes, yes. A bit. But she's got a wart. You ...</div>
+
+   <div class="d-flex align-items-center pt-4 mt-auto">
+      <span class="avatar" style="background-image: url(../static/avatars/000f.jpg)"></span>
+
+      <div class="ms-3">
+         <a href="../profile.html" class="text-body">Maryjo Lebarree</a>
+         <div class="text-muted">3 days ago</div>
+      </div>
+      <div class="ms-auto">
+         <a href="javascript:void(0)" class="icon d-none d-md-inline-block ms-3 text-muted">
+            <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
+	<svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+
+         </a>
+      </div>
+   </div>
+
+      </div>
+   
+</div>
+
+    </div>
+</div>
+
+
+		</div>
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn-white"</span><span class="nt">&gt;</span>
+  Button
+<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn-primary dropdown-toggle"</span><span class="nt">&gt;</span>Dropdown<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu dropdown-menu-card"</span> <span class="na">style=</span><span class="s">"max-width: 20rem;"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card d-flex flex-column"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;img</span> <span class="na">class=</span><span class="s">"card-img-top"</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">alt=</span><span class="s">"How do you know she is a witch?"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-body d-flex flex-column"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h3</span> <span class="na">class=</span><span class="s">"card-title"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>How do you know she is a witch?<span class="nt">&lt;/a&gt;&lt;/h3&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"text-muted"</span><span class="nt">&gt;</span>Are you suggesting that coconuts migrate? No, no, no! Yes, yes. A bit. But she's got a wart. You ...<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"d-flex align-items-center pt-4 mt-auto"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"avatar"</span> <span class="na">style=</span><span class="s">"background-image: url(...)"</span><span class="nt">&gt;&lt;/span&gt;</span>
+          <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ms-3"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"text-body"</span><span class="nt">&gt;</span>Maryjo Lebarree<span class="nt">&lt;/a&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"text-muted"</span><span class="nt">&gt;</span>3 days ago<span class="nt">&lt;/div&gt;</span>
+          <span class="nt">&lt;/div&gt;</span>
+          <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"ms-auto"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"icon d-none d-md-inline-block ms-3 text-muted"</span><span class="nt">&gt;</span>
+              <span class="c">&lt;!-- Download SVG icon from http://tabler-icons.io/i/heart --&gt;</span>
+              <span class="c">&lt;!-- SVG icon code --&gt;</span>
+            <span class="nt">&lt;/a&gt;</span>
+          <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+</div>
+:ET

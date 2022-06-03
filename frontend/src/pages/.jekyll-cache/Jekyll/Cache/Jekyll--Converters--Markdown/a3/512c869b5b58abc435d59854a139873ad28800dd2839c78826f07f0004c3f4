@@ -1,0 +1,610 @@
+I"A<h2 id="payment">Payment</h2>
+
+<p>To create a payment provider icon, add the <code class="language-plaintext highlighter-rouge">payment</code> class to a component and specify the payment provider. The full list of payment providers can be found below.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<span class="payment payment-provider-shopify me-3"></span>
+
+<span class="payment payment-provider-visa me-3"></span>
+
+<span class="payment payment-provider-paypal me-3"></span>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"payment payment-provider-shopify me-3"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"payment payment-provider-visa me-3"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"payment payment-provider-paypal me-3"</span><span class="nt">&gt;&lt;/span&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="payment-sizes">Payment sizes</h2>
+
+<p>Using Bootstrap’s typical naming structure, you can create a standard payment, or scale it up or down to different sizes based on what’s needed.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<span class="payment payment-xl payment-provider-shopify me-3"></span>
+
+<span class="payment payment-lg payment-provider-visa me-3"></span>
+
+<span class="payment payment-md payment-provider-paypal me-3"></span>
+
+<span class="payment payment-sm payment-provider-amazon me-3"></span>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"payment payment-xl payment-provider-shopify me-3"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"payment payment-lg payment-provider-visa me-3"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"payment payment-md payment-provider-paypal me-3"</span><span class="nt">&gt;&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"payment payment-sm payment-provider-amazon me-3"</span><span class="nt">&gt;&lt;/span&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="types">Types</h2>
+
+<p>Select an icon from the list of payment providers. Each icon comes in two color variants - light and dark, so you can choose the one that goes well with your design.</p>
+
+<table class="table-vcenter">
+
+<tr>
+    <td>2checkout</td>
+    <td><code>2checkout</code></td>
+    <td class="w-1"><span class="payment payment-provider-2checkout"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-2checkout-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Alipay</td>
+    <td><code>alipay</code></td>
+    <td class="w-1"><span class="payment payment-provider-alipay"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-alipay-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Amazon</td>
+    <td><code>amazon</code></td>
+    <td class="w-1"><span class="payment payment-provider-amazon"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-amazon-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Americanexpress</td>
+    <td><code>americanexpress</code></td>
+    <td class="w-1"><span class="payment payment-provider-americanexpress"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-americanexpress-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Applepay</td>
+    <td><code>applepay</code></td>
+    <td class="w-1"><span class="payment payment-provider-applepay"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-applepay-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Bancontact</td>
+    <td><code>bancontact</code></td>
+    <td class="w-1"><span class="payment payment-provider-bancontact"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-bancontact-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Bitcoin</td>
+    <td><code>bitcoin</code></td>
+    <td class="w-1"><span class="payment payment-provider-bitcoin"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-bitcoin-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Bitpay</td>
+    <td><code>bitpay</code></td>
+    <td class="w-1"><span class="payment payment-provider-bitpay"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-bitpay-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Blik</td>
+    <td><code>blik</code></td>
+    <td class="w-1"><span class="payment payment-provider-blik"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-blik-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Cirrus</td>
+    <td><code>cirrus</code></td>
+    <td class="w-1"><span class="payment payment-provider-cirrus"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-cirrus-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Clickandbuy</td>
+    <td><code>clickandbuy</code></td>
+    <td class="w-1"><span class="payment payment-provider-clickandbuy"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-clickandbuy-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Coinkite</td>
+    <td><code>coinkite</code></td>
+    <td class="w-1"><span class="payment payment-provider-coinkite"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-coinkite-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Dinersclub</td>
+    <td><code>dinersclub</code></td>
+    <td class="w-1"><span class="payment payment-provider-dinersclub"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-dinersclub-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Directdebit</td>
+    <td><code>directdebit</code></td>
+    <td class="w-1"><span class="payment payment-provider-directdebit"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-directdebit-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Discover</td>
+    <td><code>discover</code></td>
+    <td class="w-1"><span class="payment payment-provider-discover"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-discover-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Dotpay</td>
+    <td><code>dotpay</code></td>
+    <td class="w-1"><span class="payment payment-provider-dotpay"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-dotpay-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Dwolla</td>
+    <td><code>dwolla</code></td>
+    <td class="w-1"><span class="payment payment-provider-dwolla"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-dwolla-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Ebay</td>
+    <td><code>ebay</code></td>
+    <td class="w-1"><span class="payment payment-provider-ebay"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-ebay-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Eway</td>
+    <td><code>eway</code></td>
+    <td class="w-1"><span class="payment payment-provider-eway"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-eway-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Giropay</td>
+    <td><code>giropay</code></td>
+    <td class="w-1"><span class="payment payment-provider-giropay"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-giropay-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Googlewallet</td>
+    <td><code>googlewallet</code></td>
+    <td class="w-1"><span class="payment payment-provider-googlewallet"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-googlewallet-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Ingenico</td>
+    <td><code>ingenico</code></td>
+    <td class="w-1"><span class="payment payment-provider-ingenico"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-ingenico-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Jcb</td>
+    <td><code>jcb</code></td>
+    <td class="w-1"><span class="payment payment-provider-jcb"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-jcb-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Klarna</td>
+    <td><code>klarna</code></td>
+    <td class="w-1"><span class="payment payment-provider-klarna"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-klarna-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Laser</td>
+    <td><code>laser</code></td>
+    <td class="w-1"><span class="payment payment-provider-laser"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-laser-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Maestro</td>
+    <td><code>maestro</code></td>
+    <td class="w-1"><span class="payment payment-provider-maestro"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-maestro-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Mastercard</td>
+    <td><code>mastercard</code></td>
+    <td class="w-1"><span class="payment payment-provider-mastercard"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-mastercard-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Mir</td>
+    <td><code>mir</code></td>
+    <td class="w-1"><span class="payment payment-provider-mir"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-mir-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Monero</td>
+    <td><code>monero</code></td>
+    <td class="w-1"><span class="payment payment-provider-monero"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-monero-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Neteller</td>
+    <td><code>neteller</code></td>
+    <td class="w-1"><span class="payment payment-provider-neteller"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-neteller-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Ogone</td>
+    <td><code>ogone</code></td>
+    <td class="w-1"><span class="payment payment-provider-ogone"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-ogone-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Okpay</td>
+    <td><code>okpay</code></td>
+    <td class="w-1"><span class="payment payment-provider-okpay"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-okpay-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Paybox</td>
+    <td><code>paybox</code></td>
+    <td class="w-1"><span class="payment payment-provider-paybox"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-paybox-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Paymill</td>
+    <td><code>paymill</code></td>
+    <td class="w-1"><span class="payment payment-provider-paymill"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-paymill-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Payone</td>
+    <td><code>payone</code></td>
+    <td class="w-1"><span class="payment payment-provider-payone"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-payone-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Payoneer</td>
+    <td><code>payoneer</code></td>
+    <td class="w-1"><span class="payment payment-provider-payoneer"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-payoneer-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Paypal</td>
+    <td><code>paypal</code></td>
+    <td class="w-1"><span class="payment payment-provider-paypal"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-paypal-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Paysafecard</td>
+    <td><code>paysafecard</code></td>
+    <td class="w-1"><span class="payment payment-provider-paysafecard"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-paysafecard-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Payu</td>
+    <td><code>payu</code></td>
+    <td class="w-1"><span class="payment payment-provider-payu"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-payu-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Payza</td>
+    <td><code>payza</code></td>
+    <td class="w-1"><span class="payment payment-provider-payza"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-payza-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Przelewy24</td>
+    <td><code>przelewy24</code></td>
+    <td class="w-1"><span class="payment payment-provider-przelewy24"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-przelewy24-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Ripple</td>
+    <td><code>ripple</code></td>
+    <td class="w-1"><span class="payment payment-provider-ripple"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-ripple-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Sage</td>
+    <td><code>sage</code></td>
+    <td class="w-1"><span class="payment payment-provider-sage"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-sage-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Sepa</td>
+    <td><code>sepa</code></td>
+    <td class="w-1"><span class="payment payment-provider-sepa"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-sepa-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Shopify</td>
+    <td><code>shopify</code></td>
+    <td class="w-1"><span class="payment payment-provider-shopify"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-shopify-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Skrill</td>
+    <td><code>skrill</code></td>
+    <td class="w-1"><span class="payment payment-provider-skrill"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-skrill-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Solo</td>
+    <td><code>solo</code></td>
+    <td class="w-1"><span class="payment payment-provider-solo"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-solo-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Square</td>
+    <td><code>square</code></td>
+    <td class="w-1"><span class="payment payment-provider-square"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-square-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Stripe</td>
+    <td><code>stripe</code></td>
+    <td class="w-1"><span class="payment payment-provider-stripe"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-stripe-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Switch</td>
+    <td><code>switch</code></td>
+    <td class="w-1"><span class="payment payment-provider-switch"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-switch-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Tpay</td>
+    <td><code>tpay</code></td>
+    <td class="w-1"><span class="payment payment-provider-tpay"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-tpay-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Ukash</td>
+    <td><code>ukash</code></td>
+    <td class="w-1"><span class="payment payment-provider-ukash"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-ukash-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Unionpay</td>
+    <td><code>unionpay</code></td>
+    <td class="w-1"><span class="payment payment-provider-unionpay"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-unionpay-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Verifone</td>
+    <td><code>verifone</code></td>
+    <td class="w-1"><span class="payment payment-provider-verifone"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-verifone-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Verisign</td>
+    <td><code>verisign</code></td>
+    <td class="w-1"><span class="payment payment-provider-verisign"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-verisign-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Visa</td>
+    <td><code>visa</code></td>
+    <td class="w-1"><span class="payment payment-provider-visa"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-visa-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Webmoney</td>
+    <td><code>webmoney</code></td>
+    <td class="w-1"><span class="payment payment-provider-webmoney"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-webmoney-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Westernunion</td>
+    <td><code>westernunion</code></td>
+    <td class="w-1"><span class="payment payment-provider-westernunion"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-westernunion-dark"></span>
+</td>
+</tr>
+
+<tr>
+    <td>Worldpay</td>
+    <td><code>worldpay</code></td>
+    <td class="w-1"><span class="payment payment-provider-worldpay"></span>
+</td>
+    <td class="w-1"><span class="payment payment-provider-worldpay-dark"></span>
+</td>
+</tr>
+
+</table>
+:ET

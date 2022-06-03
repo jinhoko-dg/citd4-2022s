@@ -1,0 +1,31 @@
+I"<h2 id="default-markup">Default markup</h2>
+
+<p>Add the autosize element to your input to make it automatically adjust to the length of a text as a user types it.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		
+
+		
+<label class="form-label">Autosize example</label>
+<textarea class="form-control" data-bs-toggle="autosize" placeholder="Type something…"></textarea>
+
+
+
+		
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-label"</span><span class="nt">&gt;</span>Autosize example<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;textarea</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">data-bs-toggle=</span><span class="s">"autosize"</span> <span class="na">placeholder=</span><span class="s">"Type something…"</span><span class="nt">&gt;&lt;/textarea&gt;</span></code></pre></figure>
+
+</div>
+
+:ET

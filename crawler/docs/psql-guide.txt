@@ -1,0 +1,17 @@
+sudo apt-get install libpq-dev
+pip3 install psycopg2-binary
+
+# make database
+
+
+
+# access
+
+psql -h localhost -p 5432 -U postgres --dbname=krx
+
+# inspect
+krx=# \d daily_trades_per_subject
+
+# delete rows
+krx=# delete from prices where true;
+DELETE 2338

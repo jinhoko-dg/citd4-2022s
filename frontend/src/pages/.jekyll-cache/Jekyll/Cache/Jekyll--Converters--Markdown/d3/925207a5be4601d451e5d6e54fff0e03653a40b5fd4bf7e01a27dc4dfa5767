@@ -1,0 +1,157 @@
+I"¨<h2 id="default-markup">Default markup</h2>
+
+<p>Use dividers to visually separate content into parts. You can use a line only or add text that will be centered by default.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		<div class="demo-dividers">
+
+		
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolore dolores doloribus est ex.
+</p>
+<div class="hr-text">See also</div>
+
+<p>
+  Dicta error hic illo iure necessitatibus nihil officiis omnis perferendis, praesentium repellendus rerum, saepe sed, sit!
+</p>
+
+
+		</div>
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolore dolores doloribus est ex.
+<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"hr-text"</span><span class="nt">&gt;</span>See also<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;p&gt;</span>
+  Dicta error hic illo iure necessitatibus nihil officiis omnis perferendis, praesentium repellendus rerum, saepe sed, sit!
+<span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="text-position">Text position</h2>
+
+<p>You can modify the position of the text which is to be included in a separator and make it left- or right-aligned. Otherwise, the text will remain centered.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		<div class="demo-dividers">
+
+		
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolore dolores doloribus est ex.
+</p>
+<div class="hr-text hr-text-left">Left divider</div>
+
+<p>
+  Dicta error hic illo iure necessitatibus nihil officiis omnis perferendis, praesentium repellendus rerum, saepe sed, sit!
+</p>
+<div class="hr-text">Centered divider</div>
+
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolore dolores doloribus est ex.
+</p>
+<div class="hr-text hr-text-right">Right divider</div>
+
+<p>
+  Dicta error hic illo iure necessitatibus nihil officiis omnis perferendis, praesentium repellendus rerum, saepe sed, sit!
+</p>
+
+
+		</div>
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolore dolores doloribus est ex.
+<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"hr-text hr-text-left"</span><span class="nt">&gt;</span>Left divider<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;p&gt;</span>
+  Dicta error hic illo iure necessitatibus nihil officiis omnis perferendis, praesentium repellendus rerum, saepe sed, sit!
+<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"hr-text"</span><span class="nt">&gt;</span>Centered divider<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;p&gt;</span>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolore dolores doloribus est ex.
+<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"hr-text hr-text-right"</span><span class="nt">&gt;</span>Right divider<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;p&gt;</span>
+  Dicta error hic illo iure necessitatibus nihil officiis omnis perferendis, praesentium repellendus rerum, saepe sed, sit!
+<span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+</div>
+
+<h2 id="divider-color">Divider color</h2>
+
+<p>Customize the color of dividers to make them go well with your design. Click <a href="./colors.html">here</a> to see the list of available colors.</p>
+
+<div class="example no_toc_section">
+	<div class="example-content">
+		
+		
+		
+		<div class="demo-dividers">
+
+		
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolore dolores doloribus est ex.
+</p>
+<div class="hr-text text-green">Green divider</div>
+
+<p>
+  Dicta error hic illo iure necessitatibus nihil officiis omnis perferendis, praesentium repellendus rerum, saepe sed, sit!
+</p>
+<div class="hr-text text-red">Red divider</div>
+
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolore dolores doloribus est ex.
+</p>
+<div class="hr-text text-primary">Primary divider</div>
+
+<p>
+   Dicta error hic illo iure necessitatibus nihil officiis omnis perferendis, praesentium repellendus rerum, saepe sed, sit!
+</p>
+
+
+		</div>
+		
+		
+	</div>
+</div>
+
+<div class="example-code">
+	
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolore dolores doloribus est ex.
+<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"hr-text text-green"</span><span class="nt">&gt;</span>Green divider<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;p&gt;</span>
+  Dicta error hic illo iure necessitatibus nihil officiis omnis perferendis, praesentium repellendus rerum, saepe sed, sit!
+<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"hr-text text-red"</span><span class="nt">&gt;</span>Red divider<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;p&gt;</span>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolore dolores doloribus est ex.
+<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"hr-text text-primary"</span><span class="nt">&gt;</span>Primary divider<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;p&gt;</span>
+  Dicta error hic illo iure necessitatibus nihil officiis omnis perferendis, praesentium repellendus rerum, saepe sed, sit!
+<span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+</div>
+
+:ET

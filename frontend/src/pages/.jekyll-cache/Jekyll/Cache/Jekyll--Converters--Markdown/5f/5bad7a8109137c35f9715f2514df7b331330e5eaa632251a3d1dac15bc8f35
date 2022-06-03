@@ -1,0 +1,22 @@
+I"<h2 id="cdn-via-unpkg">CDN via unpkg</h2>
+
+<p>All files included in <code class="language-plaintext highlighter-rouge">@tabler/core</code> npm package are available over a unpkg CDN. Use it to deliver cached version of Tabler’s compiled CSS and JS to your project.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://unpkg.com/@tabler/core@1.0.0-beta4/dist/js/tabler.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://unpkg.com/@tabler/core@1.0.0-beta4/dist/css/tabler.min.css"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<p>You can also include additional Tabler plugins:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://unpkg.com/@tabler/core@1.0.0-beta4/dist/css/tabler-flags.min.css"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://unpkg.com/@tabler/core@1.0.0-beta4/dist/css/tabler-payments.min.css"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://unpkg.com/@tabler/core@1.0.0-beta4/dist/css/tabler-vendors.min.css"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<h2 id="package-managers">Package managers</h2>
+
+<p>Install Tabler in your Node.js powered apps with the npm package:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install @tabler/core
+</code></pre></div></div>
+:ET
